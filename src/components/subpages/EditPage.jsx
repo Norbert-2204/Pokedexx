@@ -20,7 +20,7 @@ import {
 } from "../styled elements/StyledComponents";
 import { useMediaQuery } from "@mui/material";
 
-const urlLocale = "http://localhost:3001/Users";
+const urlLocale = "http://localhost:3000/Users";
 
 const EditPage = () => {
   const { loggedIn, refreshUser } = LoggedContext();
@@ -220,6 +220,9 @@ const EditPage = () => {
             weight: Number(data.weigth),
             height: Number(data.heigth),
             baseExperience: Number(data.baseExperience),
+            arena: selectedPokemon.arena ?? false,
+            win: selectedPokemon.win ?? 0,
+            lose: selectedPokemon.lose ?? 0,
           },
         ];
 

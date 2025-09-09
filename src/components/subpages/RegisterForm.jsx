@@ -13,7 +13,7 @@ import {
 import RegisterInput from "../Shared/RegisterInput";
 import Button from "../Shared/Button";
 
-const url = "http://localhost:3001/Users";
+const url = "http://localhost:3000/Users";
 
 const RegisterForm = () => {
   const { sendRequest } = useLocaleFetch("POST");

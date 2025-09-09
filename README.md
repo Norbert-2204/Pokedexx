@@ -8,7 +8,7 @@
 
 ## Uruchamianie
 
-W terminalu odpal json serwer i npm run dev
+W terminalu odpal json-server na porcie 3000 i npm run dev
 
 ## Funkcjonalności
 

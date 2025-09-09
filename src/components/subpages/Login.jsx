@@ -16,7 +16,7 @@ import capitalize from "../Utils/Capitalize";
 import { useNavigate } from "react-router-dom";
 import RegisterInput from "../Shared/RegisterInput";
 
-const url = "http://localhost:3001/Users";
+const url = "http://localhost:3000/Users";
 
 const Login = () => {
   const { sendRequest: fetchUsers } = useLocaleFetch();

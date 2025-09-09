@@ -17,7 +17,7 @@ import { useLocaleFetch } from "../custom hooks/useLocaleFetch";
 import { LoggedContext } from "../Context/LoggedInProvider";
 import { useSnackbar } from "notistack";
 
-const url = "http://localhost:3001/Users";
+const url = "http://localhost:3000/Users";
 
 const PokeModal = ({
   onClose,

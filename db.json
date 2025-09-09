@@ -337,11 +337,13 @@
           "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
           "weight": 34,
           "height": 44,
-          "baseExperience": 4560,
+          "baseExperience": 4580,
           "abilities": [
             "blaze",
             "solar-power"
-          ]
+          ],
+          "arena": false,
+          "win": 2
         },
         {
           "id": 13,
@@ -355,22 +357,22 @@
             "run-away"
           ],
           "arena": false,
-          "win": 7
+          "win": 8
         },
         {
           "id": 1,
           "name": "bulbasaur",
           "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
-          "weight": 69,
-          "height": 7,
-          "baseExperience": 64,
+          "weight": 1111,
+          "height": 1111,
+          "baseExperience": 11,
           "abilities": [
             "overgrow",
             "chlorophyll"
           ],
           "win": 0,
-          "lose": 0,
-          "arena": true
+          "lose": 4,
+          "arena": false
         },
         {
           "id": 3,
@@ -378,13 +380,58 @@
           "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
           "weight": 1000,
           "height": 20,
-          "baseExperience": 236,
+          "baseExperience": 256,
           "abilities": [
             "overgrow",
             "chlorophyll"
           ],
-          "win": 0,
+          "win": 2,
           "lose": 0,
+          "arena": false
+        },
+        {
+          "id": 15,
+          "name": "beedrill",
+          "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png",
+          "weight": 295,
+          "height": 10,
+          "baseExperience": 178,
+          "abilities": [
+            "swarm",
+            "sniper"
+          ],
+          "win": 0,
+          "lose": 1,
+          "arena": false
+        },
+        {
+          "id": 5,
+          "name": "charmeleon",
+          "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+          "weight": 56,
+          "height": 99,
+          "baseExperience": 676,
+          "abilities": [
+            "blaze",
+            "solar-power"
+          ],
+          "arena": true,
+          "win": 1,
+          "lose": 0
+        },
+        {
+          "id": 8,
+          "name": "wartortle",
+          "img": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+          "weight": 225,
+          "height": 10,
+          "baseExperience": 142,
+          "abilities": [
+            "torrent",
+            "rain-dish"
+          ],
+          "win": 0,
+          "lose": 1,
           "arena": true
         }
       ],

@@ -11,7 +11,7 @@ import {
   StyledInput,
 } from "../styled elements/StyledComponents";
 
-const url = `http://localhost:3001/Users`;
+const url = `http://localhost:3000/Users`;
 
 const FavoritePage = () => {
   const { loggedIn, setLoggedIn, refreshUser } = LoggedContext();

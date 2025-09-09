@@ -12,7 +12,7 @@ import { useNavigate } from "react-router-dom";
 import capitalize from "../Utils/Capitalize";
 import { useSnackbar } from "notistack";
 
-const url = "http://localhost:3001/Users";
+const url = "http://localhost:3000/Users";
 
 const Arena = () => {
   const { loggedIn, setLoggedIn, refreshUser } = LoggedContext();

@@ -16,7 +16,7 @@ const LoggedInProvider = ({ children }) => {
     try {
       if (!loggedIn?.id) return;
       const updatedUser = await checkLogged(
-        `http://localhost:3001/Users/${loggedIn.id}`
+        `http://localhost:3000/Users/${loggedIn.id}`
       );
 
       setLoggedIn(updatedUser);
@@ -34,7 +34,7 @@ const LoggedInProvider = ({ children }) => {
           return;
         }
         const response = await checkLogged(
-          "http://localhost:3001/Users?isLoggedIn=true"
+          "http://localhost:3000/Users?isLoggedIn=true"
         );
         setLoggedIn(response?.[0]);
       } catch (err) {
@@ -49,7 +49,7 @@ const LoggedInProvider = ({ children }) => {
   const logoff = async () => {
     if (!loggedIn) return;
 
-    logedOut(`http://localhost:3001/Users/${loggedIn.id}`, {
+    logedOut(`http://localhost:3000/Users/${loggedIn.id}`, {
       isLoggedIn: false,
     });
 
